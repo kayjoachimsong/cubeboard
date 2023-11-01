@@ -8,7 +8,9 @@ namespace cubeweb.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        /// <summary>
+        /// 메인 홈
+        /// </summary>
         public ActionResult Index()
         {
             return View();
